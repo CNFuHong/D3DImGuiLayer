@@ -1,0 +1,6 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="D3DImGuiLayer/D3DImGuiLayer.vcxproj" Id="8fc6b109-8267-47a0-a20d-23684ce512c5" />
+</Solution>

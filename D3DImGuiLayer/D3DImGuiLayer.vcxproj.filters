@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{6ab1c2d3-4e5f-4a6b-8c7d-9e0f1a2b3c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{6ab1c2d3-4e5f-4a6b-8c7d-9e0f1a2b3c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{6ab1c2d3-4e5f-4a6b-8c7d-9e0f1a2b3c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gfx">
+      <UniqueIdentifier>{6ab1c2d3-4e5f-4a6b-8c7d-9e0f1a2b3c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hook">
+      <UniqueIdentifier>{6ab1c2d3-4e5f-4a6b-8c7d-9e0f1a2b3c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\platform">
+      <UniqueIdentifier>{6ab1c2d3-4e5f-4a6b-8c7d-9e0f1a2b3c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\user">
+      <UniqueIdentifier>{6ab1c2d3-4e5f-4a6b-8c7d-9e0f1a2b3c07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{6ab1c2d3-4e5f-4a6b-8c7d-9e0f1a2b3c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\imgui">
+      <UniqueIdentifier>{6ab1c2d3-4e5f-4a6b-8c7d-9e0f1a2b3c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\minhook">
+      <UniqueIdentifier>{6ab1c2d3-4e5f-4a6b-8c7d-9e0f1a2b3c0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\d3d_imgui_layer\d3dimgui.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\d3d_imgui_layer\d3dimgui_settings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\d3d_imgui_layer\d3dimgui_user.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\layer.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\log.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gfx\backend.h">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gfx\d3d11_backend.h">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gfx\d3d12_backend.h">
+      <Filter>src\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\dxgi_hook.h">
+      <Filter>src\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hook\vtable.h">
+      <Filter>src\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform\font.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform\input.h">
+      <Filter>src\platform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="src\core\api.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\layer.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\log.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gfx\d3d11_backend.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gfx\d3d12_backend.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gfx\factory.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gfx\gl_backend.cpp">
+      <Filter>src\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook\dxgi_hook.cpp">
+      <Filter>src\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook\gl_hook.cpp">
+      <Filter>src\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hook\slot_check.c"><Filter>src\hook</Filter></ClCompile>
+    <ClCompile Include="src\hook\vtable.cpp">
+      <Filter>src\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platform\font.cpp">
+      <Filter>src\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platform\input.cpp">
+      <Filter>src\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\user\draw.cpp">
+      <Filter>src\user</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\imgui\imgui.cpp">
+      <Filter>third_party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\imgui\imgui_draw.cpp">
+      <Filter>third_party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\imgui\imgui_tables.cpp">
+      <Filter>third_party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\imgui\imgui_widgets.cpp">
+      <Filter>third_party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\imgui\imgui_demo.cpp">
+      <Filter>third_party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>third_party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\imgui\backends\imgui_impl_dx12.cpp">
+      <Filter>third_party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>third_party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>third_party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\minhook\src\buffer.c">
+      <Filter>third_party\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\minhook\src\hook.c">
+      <Filter>third_party\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\minhook\src\trampoline.c">
+      <Filter>third_party\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\minhook\src\hde\hde32.c">
+      <Filter>third_party\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="third_party\minhook\src\hde\hde64.c">
+      <Filter>third_party\minhook</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
